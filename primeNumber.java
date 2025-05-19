@@ -1,4 +1,4 @@
-package Practice;
+package InterviewProgram;
 
 import java.util.Scanner;
 
@@ -20,13 +20,12 @@ public class primeNumber
 		}
 		if(count==2)
 		{
-			System.out.println("it is prime number");
+			System.out.println("it is peime number");
 		}
 		else
 		{
 			System.out.println("it is not prime number");
 		}
-		
 	}
 
 }

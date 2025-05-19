@@ -2,34 +2,24 @@ package InterviewProgram;
 
 import java.util.Scanner;
 
-public class demo 
+public class int_2
 {
 	public static void main(String[] args) 
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the number");
 		int num=sc.nextInt();
-		int count=0;
-		
-		for(int i=1;i<=num;i++)
+		double squ=Math.sqrt(num);
+		if(num%squ==0)
 		{
-			if(num%i==0)
-			{
-				count++;
-			}
-		}
-		
-		if(count==2)
-		{
-			System.out.println("it is prime number");
+			System.out.println("true");
 		}
 		else
 		{
-			System.out.println("it is not prime");
+			System.out.println("false");
 		}
-			
-		
 		
 		
 	}
+
 }

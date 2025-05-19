@@ -2,7 +2,7 @@ package InterviewProgram;
 
 import java.util.Scanner;
 
-public class factorialNumber
+public class leapYear
 {
 	public static void main(String[] args)
 	{
@@ -10,13 +10,15 @@ public class factorialNumber
 		System.out.println("enter the number");
 		int num=sc.nextInt();
 		
-		int fact=1;
-		for(int i=1;i<=num;i++)
+		if(num%1==0&&num%4==0)
 		{
-			fact=fact*i;
+			System.out.println("it is leap year");
 		}
-		System.out.println("factorial of that number");
-		System.out.println(fact);
+		else
+		{
+			System.out.println("it is not leap year");
+		}
+		
 	}
 
 }
